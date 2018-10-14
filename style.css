@@ -1,0 +1,86 @@
+
+body {
+  font-family: 'open sans', helvetica, arial, sans;
+  background-color: #e5d89e;
+}
+
+#hereTo{
+  position: absolute;
+  top: 48%;
+  left: 33%;
+  width: 600px;
+}
+
+#loginWindow{
+    position: absolute;
+    top: 35%;
+    left: 37%;
+    /* margin-top: -20px;
+    margin-bottom: 20px;
+    margin-left: -20px;
+    margin-right: 20px; */
+    width: 350px;
+    height: 250px;
+}​
+
+#rememberMe{
+float:right;
+width:200px;
+border:solid 1px;
+}
+
+input{
+  margin-top: 3px;
+  margin-bottom: 3px;
+}
+
+/* unvisited link */
+a:link {
+    color: #897777;
+}
+
+/* visited link */
+a:visited {
+    color: #897777;
+}
+
+/* mouse over link */
+a:hover {
+    color: #635555;
+}
+
+/* selected link */
+a:active {
+    color: #635555;
+}
+
+.container {
+    position: fixed;
+    padding: 0;
+    margin: 0;
+}
+
+.left-element {
+    display: inline-block;
+    float: left;
+}
+
+.right-element {
+    display: inline-block;
+    float: left;
+    text-align: center;
+    vertical-align: middle;
+    height: 600px;
+    width: 600px;
+}
+
+#frm1_submit {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 12px 28px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
